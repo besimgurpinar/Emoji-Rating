@@ -1,0 +1,76 @@
+body {
+			font-family: sans-serif;
+			text-align: center;
+			background-color: #f8f9fa;
+		}
+		
+		h1 {
+			margin-top: 50px;
+		}
+		
+		.item {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		
+		.item img {
+			width: 200px;
+			height: 200px;
+			object-fit: cover;
+			border-radius: 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		
+		.emoji-container {
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		
+		.emoji-container button {
+			margin: 0 10px;
+			font-size: 36px;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+		}
+		
+		.emoji-container button:focus {
+			outline: none;
+		}
+		
+		.emoji-container button:hover {
+			transform: scale(1.2);
+		}
+		
+		.selected-emoji {
+			color: #007bff;
+		}
+		
+		.rating-container {
+			margin-top: 50px;
+		}
+		
+		.rating-container h2 {
+			margin-bottom: 20px;
+		}
+		
+		.rating-container ul {
+			list-style-type: none;
+			padding-inline-start: 0;
+		}
+		
+		.rating-container li {
+			margin-bottom: 10px;
+		}
+		
+		.rating-container li p {
+			display: inline-block;
+			margin-right: 10px;
+		}
+		
+		.rating-container li span {
+			font-size: 36px;
+		}
